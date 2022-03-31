@@ -1,0 +1,608 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Be Vietnam Pro", Arial, Helvetica;
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-position-y: 5px;
+}
+
+
+/* estilos del header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 190px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    color: lightgray;
+}
+header button {
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+header button:hover {
+    transition: all 0.5s linear;
+    background-color: rgba(242, 95, 58, 0.7);
+    
+}
+
+.logoCabecera {
+    height: 24px;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+/* estilos del main, Caja1 */
+
+main .Caja1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.Caja1 article {
+    display: flex;
+    gap:28px ;
+    flex-direction: column;
+    width: 35%;
+    min-width: 700px;
+
+}
+
+.Caja1 article h1 {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.Caja1 article p {
+    font-size: 17px;
+    width: 350px;
+    line-height: 22px;
+}
+
+.Caja1 article button {
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -1px 7px 25px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+.Caja1 article button:hover {
+    transition: all 0.5s linear;
+    background-color: rgba(242, 95, 58, 0.7);
+    
+}
+
+.textoCaja1 {
+    margin-top: 65px;
+}
+
+/* Main Caja 2 */
+
+main .Caja2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 180px;
+}
+
+.Caja2 article{
+    width: 35%;
+    min-width: 700px;
+}
+
+.Caja2 article h2 {
+    font-weight: bold;
+    font-size: 36px;
+    width: 433px;
+    min-width: 400px;
+}
+
+.textoCaja2 {
+    width: 350px;
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 22px;
+    min-width: 300px;
+}
+
+.listadoMain {
+    display: flex;
+}
+
+.listadoMain1 h3::before {
+    content: "01";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+
+}
+.listadoMain2 h3::before {
+    content: "02";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+
+}
+.listadoMain3 h3::before {
+    content: "03";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+
+}
+
+
+
+.cajitas {
+    margin-top: 42px;
+}
+
+.textoCajitas {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B2B7;
+    padding-left: 75px;
+    
+}
+
+.listadoMain h3 {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+/* Main Caja3 */
+
+.tituloCaja3 {
+    text-align: center;
+    font-size: 39px;
+    margin-top: 132.5px;
+    margin-bottom: 74px;
+}
+
+.Caja3 {
+    display: flex;
+}
+
+.Caja3 article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #FAFAFA;
+    position: relative;
+    height: 219px;
+}
+
+.Caja3 img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 184px;
+}
+
+.Caja3 article p {
+    padding: 0px 28px 39px 27px;
+    color: #B9B9C1;
+    
+    
+}.Caja3 article h3 {
+    margin-top: 56px;
+}
+
+.botonCaja3 {
+    margin-top: 57.5px;
+    margin-bottom: 192.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+.botonCaja3:hover {
+    transition: all 0.5s linear;
+    background-color: rgba(242, 95, 58, 0.7);
+    
+}
+
+.divBoton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*main Caja4 */
+
+.Caja4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3603B;
+    height: 224px;
+    min-width: 500px;
+
+
+}
+
+.Caja4 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 165px;
+    width: 438px;
+    color: white;
+    min-width: 400px;
+}
+
+.Caja4 button {
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #F3603B;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.Caja4 button:hover {
+    transition: all 0.5s linear;
+    color: rgba(242, 95, 58, 0.7);
+    
+
+}
+
+/*Empieza el footer, footerCaja1*/
+
+footer {
+    display:flex;
+    justify-content: space-around;
+    background-color:#1E1E26;
+    height: 247px;
+    min-width: 500px;
+}
+
+.footerCaja1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .redes i{
+    font-size: 22px;
+    margin: 0.5rem;
+    color: #FAFAFA;
+
+}
+
+footer .redes i:hover {
+    color: orangered;
+
+}
+
+
+
+
+/*empieza footerCaja3*/
+
+.footerCaja3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.footerCaja3 p {
+    color: #8C8C94;
+    font-size: 12.5px;
+}
+
+.footerCaja3 .busqueda {
+    height: 44px;
+    width: 201px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    min-width: 150px;
+}
+
+
+.footerCaja3 .botonBusqueda {
+    height: 42px;
+    width: 63px;
+    background-color: #F3603B;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   1px 2px 2px black;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+.footerCaja3 .botonBusqueda:hover{
+    transition: all 0.5s linear;
+    background-color: rgba(242, 95, 58, 0.7);
+    
+}
+
+/*empieza footerCaja2 */
+
+.listaFooter li {
+    list-style: none;
+    padding-bottom: 24px;
+    
+}
+
+.listaFooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.listaFooter a:hover{
+    color: lightgray;
+}
+
+.listaFooter a:active{
+    color: orangered;
+}
+
+.listaFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerCaja2 {
+    
+    display: flex;
+    margin-bottom: 68px;
+    margin-top: 50px;
+    gap: 242px;
+    min-width: 240px;
+}
+
+/* version mobile, header */
+@media (max-width: 376px){
+    header nav {
+        display: none;
+    
+    }
+    
+    header button {
+        display: none;
+    }
+
+    .hamburguesa {
+        display: block;
+        position: relative;
+        left: 240px;
+        height: 30px;
+        width: 30px;
+    }
+
+    header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logoCabecera {
+        position: relative;
+        right: 160px;
+        width: 200px;
+        height: 30px;
+    }
+
+    /*comienza el main */
+
+
+    main {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .Caja1, .Caja2, .Caja3 , .Caja4{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .Caja1 button {
+        position: relative;
+        right: 20px;
+        top: 30px;
+    }
+    
+
+    .textoCaja1 {
+        order: 1;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Caja1 .textoCaja1 h1 {
+        text-align:center;
+        font-size: 3em;
+    }
+
+
+
+    /*main caja 2*/
+    
+    .Caja2 {
+    justify-content: center;
+    align-items: center;
+    }
+
+    
+
+    .textoCaja2 {
+        margin-bottom: 45px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .Caja2 h2 {
+        text-align: center;
+        justify-content: center;
+        margin-left: 110px;
+
+    }
+    .textoCajitas {
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+
+    .listadoMain1 h3, .listadoMain2 h3, .listadoMain3 h3{
+        background-color: rgba(240, 128, 128, 0.3);
+        border-radius: 50px;
+        border: none;
+        padding-left: 10px;
+        
+    }
+
+    .textoCajitas{
+        padding: 0;
+
+    }
+
+
+    /* empezando Caja3 */
+
+    .Caja3 .perfiles {
+        display: none;
+    }
+
+    .perfilAli p{
+        color: darkgray;
+    }
+
+    /*Main Caja 4 empieza */
+    
+    .Caja4 {
+        flex-direction: column;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Caja4 h2{
+        padding-right: 170px;
+    }
+
+    .Caja4 button {
+        position: relative;
+        left: 150px;
+        top: 40px;
+        margin-right: 310px;
+
+    }
+
+    /*Empieza footer */
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 700px;
+        
+    }
+
+    .footerCaja3 {
+        order: -1;
+
+    }
+    
+    .footerCaja3 p {
+        position: relative;
+        top: 480px;
+        right: 5px;
+        font-size: medium;
+    }
+
+    .footerCaja1 {
+        order: 4;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+
+    footer .redes i{
+        margin-bottom: 60px;;
+        width: 30px;
+        font-size: 30px;
+
+    }
+
+}
